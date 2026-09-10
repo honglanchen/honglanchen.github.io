@@ -1,25 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honglan's Homepage</title>
+
+    <title>Honglan | Personal Website</title>
+
+    <meta name="description"
+          content="Academic personal website of Honglan, featuring research, publications, teaching, and academic activities.">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Honglan</h1>
+    <!-- ===================== -->
+    <!-- Navigation Bar -->
+    <!-- ===================== -->
 
-<p>Welcome to my personal website!</p>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
 
-<h2>About Me</h2>
-<p>I am a Ph.D. student interested in machine learning and artificial intelligence.</p>
+                <div class="nav-name">
+                    <a href="#home">Honglan</a>
+                </div>
 
-<h2>Research</h2>
-<p>My research focuses on artificial intelligence and machine learning.</p>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#research">Research</a>
+                    <a href="#publications">Publications</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                    <a href="files/Honglan_CV.pdf" target="_blank">CV</a>
+                </div>
 
-<h2>Contact</h2>
-<p>Email: your-email@example.com</p>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- ===================== -->
+    <!-- Main Content -->
+    <!-- ===================== -->
+
+    <main>
+
+        <!-- ===================== -->
+        <!-- Hero / About -->
+        <!-- ===================== -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-container">
+
+                <div class="profile-photo">
+                    <img src="images/profile.jpg"
+                         alt="Honglan profile photo">
+                </div>
+
+
+                <div class="profile-info">
+
+                    <h1>Honglan [Last Name]</h1>
+
+                    <p class="position">
+                        Ph.D. Student in Computer Science / Information Science
+                    </p>
+
+                    <p class="institution">
+                        [University Name]
+                    </p>
+
+
+                    <p class="bio">
+                        I am a Ph.D. student with research interests in
+                        artificial intelligence, machine learning, deep learning,
+                        and large language models. My research focuses on developing
+                        reliable, interpretable, and efficient AI systems for
+                        challenging real-world problems.
+                    </p>
+
+
+                    <div class="profile-links">
+
+                        <a href="mailto:your-email@university.edu">
+                            Email
+                        </a>
+
+                        <a href="https://scholar.google.com/"
+                           target="_blank">
+                            Google Scholar
+                        </a>
+
+                        <a href="https://github.com/honglan"
+                           target="_blank">
+                            GitHub
+                        </a>
+
+                        <a href="files/Honglan_CV.pdf"
+                           target="_blank">
+                            CV
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ===================== -->
+        <!-- About -->
+        <!-- ===================== -->
+
+        <section id="about" class="section">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am currently a Ph.D. student at
+                <strong>[University Name]</strong>.
+                My research broadly lies at the intersection of
+                artificial intelligence, machine learning,
+                and data-driven intelligent systems.
+            </p>
+
+            <p>
+                I am particularly interested in understanding how modern
+                machine learning models reason, generalize, and make decisions.
+                My current work explores topics including large language models,
+                reasoning models, representation learning, model interpretability,
+                and AI for scientific and healthcare applications.
+            </p>
+
+        </section>
+
+
+
+        <!-- ===================== -->
+        <!-- Research -->
+        <!-- ===================== -->
+
+        <section id="research" class="section">
+
+            <h2>Research Interests</h2>
+
+            <div class="research-grid">
+
+                <div class="research-card">
+                    <h3>Large Language Models</h3>
+
+                    <p>
+                        Reasoning, inference-time computation,
+                        activation steering, and efficient adaptation
+                        of large language models.
+                    </p>
+                </div>
+
+
+                <div class="research-card">
+                    <h3>Machine Learning</h3>
+
+                    <p>
+                        Deep learning, representation learning,
+                        optimization, and learning from complex
+                        high-dimensional data.
+                    </p>
+                </div>
+
+
+                <div class="research-card">
+                    <h3>Explainable AI</h3>
+
+                    <p>
+                        Developing interpretable machine learning systems
+                        and methods for understanding model decisions.
+                    </p>
+                </div>
+
+
+                <div class="research-card">
+                    <h3>AI for Healthcare</h3>
+
+                    <p>
+                        Applying machine learning and deep learning
+                        techniques to medical imaging and
+                        clinical decision support.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ===================== -->
+        <!-- Publications -->
+        <!-- ===================== -->
+
+        <section id="publications" class="section">
+
+            <h2>Selected Publications</h2>
+
+
+            <div class="publication">
+
+                <h3>
+                    Title of Your Research Paper
+                </h3>
+
+                <p class="authors">
+                    <strong>Honglan [Last Name]</strong>,
+                    Author Two,
+                    Author Three
+                </p>
+
+                <p class="venue">
+                    Journal / Conference Name, 2026
+                </p>
+
+                <div class="publication-links">
+
+                    <a href="#" target="_blank">
+                        Paper
+                    </a>
+
+                    <a href="#" target="_blank">
+                        Code
+                    </a>
+
+                    <a href="#" target="_blank">
+                        DOI
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="publication">
+
+                <h3>
+                    Another Research Paper
+                </h3>
+
+                <p class="authors">
+                    Author One,
+                    <strong>Honglan [Last Name]</strong>,
+                    Author Three
+                </p>
+
+                <p class="venue">
+                    Conference / Journal Name, 2025
+                </p>
+
+                <div class="publication-links">
+
+                    <a href="#" target="_blank">
+                        Paper
+                    </a>
+
+                    <a href="#" target="_blank">
+                        Code
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <p class="more-publications">
+
+                For a complete publication list, please visit my
+
+                <a href="https://scholar.google.com/"
+                   target="_blank">
+
+                    Google Scholar profile.
+
+                </a>
+
+            </p>
+
+        </section>
+
+
+
+        <!-- ===================== -->
+        <!-- Education -->
+        <!-- ===================== -->
+
+        <section id="education" class="section">
+
+            <h2>Education</h2>
+
+
+            <div class="timeline-item">
+
+                <h3>
+                    Ph.D. in Computer Science / Information Science
+                </h3>
+
+                <p>
+                    <strong>[University Name]</strong>
+                </p>
+
+                <p class="date">
+                    2023 – Present
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <h3>
+                    M.S. in [Your Major]
+                </h3>
+
+                <p>
+                    <strong>[University Name]</strong>
+                </p>
+
+                <p class="date">
+                    2021 – 2023
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <h3>
+                    B.S. in [Your Major]
+                </h3>
+
+                <p>
+                    <strong>[University Name]</strong>
+                </p>
+
+                <p class="date">
+                    2017 – 2021
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ===================== -->
+        <!-- Contact -->
+        <!-- ===================== -->
+
+        <section id="contact" class="section">
+
+            <h2>Contact</h2>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:your-email@university.edu">
+                    your-email@university.edu
+                </a>
+            </p>
+
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/honglan"
+                   target="_blank">
+
+                    github.com/honglan
+
+                </a>
+            </p>
+
+
+            <p>
+                <strong>Google Scholar:</strong>
+                <a href="https://scholar.google.com/"
+                   target="_blank">
+
+                    Google Scholar Profile
+
+                </a>
+            </p>
+
+
+            <p>
+                <strong>Office:</strong>
+                [Building / Room / University]
+            </p>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ===================== -->
+    <!-- Footer -->
+    <!-- ===================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Honglan [Last Name].
+            Powered by GitHub Pages.
+        </p>
+
+    </footer>
+
 
 </body>
+
 </html>
